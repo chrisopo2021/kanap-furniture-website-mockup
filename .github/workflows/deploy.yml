@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change this to your default branch
+      - main  # Adjust this to your default branch
 
 jobs:
   build:
@@ -16,13 +16,13 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14' # Specify the Node.js version you need
+        node-version: '14'  # Adjust this to your Node.js version
 
     - name: Install dependencies
       run: npm install
 
     - name: Build project
-      run: npm run build  # Adjust this to your build script
+      run: npm run build  # This should match the build script in package.json
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
