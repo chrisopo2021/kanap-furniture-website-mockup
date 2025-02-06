@@ -12,7 +12,7 @@ function displayProducts(itemList) {
          const productDisplay = document.querySelector("#items")
                 for (let i in itemList) {
                 productDisplay.innerHTML += `
-                <a href="./product.html?id=${itemList[i]._id}">
+                <a href="front/html/product.html?id=${itemList[i]._id}">
                 <article>
                 <img src="${itemList[i].imageUrl}" alt="${itemList[i].altTxt}">
                 <h3 class="productName">${itemList[i].name}</h3>
