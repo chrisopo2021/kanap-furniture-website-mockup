@@ -19,10 +19,10 @@ jobs:
         node-version: '14'  # Adjust this to your Node.js version
 
     - name: Install dependencies
-      run: npm install
+      run: cd back && npm install
 
     - name: Build project
-      run: npm start  # This should match the build script in package.json
+      run: cd back && npm start
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
