@@ -1,0 +1,25 @@
+{
+  "name": "chrisoglesby-p5-08022021-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "cd back && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisopo2021/ChrisOglesby_P5_08022021_A.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisopo2021/ChrisOglesby_P5_08022021_A/issues"
+  },
+  "homepage": "https://github.com/chrisopo2021/ChrisOglesby_P5_08022021_A#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "uuid": "^3.3.2"
+  }
+}
